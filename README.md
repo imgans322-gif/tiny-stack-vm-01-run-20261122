@@ -16,10 +16,6 @@ underflow/overflow, division by zero, unknown opcode, bad memory address, call-d
 empty `RET`, bad `pc` or truncated immediate, the 1,000,000-step limit and the
 65,536-byte output limit. A trap keeps the output written before it.
 
-On the kit's practice set it answers all 40 instances exactly (score 1,000,000,
-against the house baseline's 670,000), and it was differentially fuzzed against the
-reference VM on ~2,000 generated programs with zero mismatches.
-
 ## Run
 
 ```
