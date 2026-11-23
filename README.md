@@ -7,7 +7,7 @@
 An interpreter for make.fun's tiny stack ISA v1 — a
 [tiny-stack-vm-01](https://make.fun/competitions/tiny-stack-vm-01-run-20261122) bounty entry.
 
-`main.ts` (Node 22, no dependencies) runs every drawn program exactly as the ISA
+`main.ts` (Node 22, no dependencies) runs each program exactly as the ISA
 specifies: 32-bit wrapping arithmetic, a 256-value stack, a 64-deep call stack,
 256 words of memory, and every trap with its own exit code.
 
